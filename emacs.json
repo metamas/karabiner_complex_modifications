@@ -2,30 +2,8 @@
   "title": "Emacs Specific Modifications",
   "rules": [
     {
-      "description": "right_alt + right_shift for right_control",
-      "manipulators": [
-        {
-          "from": {
-            "simultaneous": [
-              {
-                "key_code": "right_alt"
-              },
-              {
-                "key_code": "right_shift"
-              }
-            ]
-          },
-          "to": [
-            {
-              "key_code": "right_control"
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "right_alt + left_arrow for right_control",
+      "type": "basic",
+      "description": "Use right_alt + left_arrow for right_control",
       "manipulators": [
         {
           "from": {
@@ -42,8 +20,7 @@
             {
               "key_code": "right_control"
             }
-          ],
-          "type": "basic"
+          ]
         }
       ]
     }
